@@ -11,6 +11,10 @@ python = "^3.10"
 pytest = "^7.4.2"
 coverage = "^7.3.2"
 
+
+[tool.poetry.group.de.dependencies]
+coverage = "^7.6.4"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
