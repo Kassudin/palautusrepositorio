@@ -1,2 +1,2 @@
-def tulo(x, y):
+def tulo(x, y): #Tulo
     return x*y
