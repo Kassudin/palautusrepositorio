@@ -11,4 +11,6 @@ y = int(input("luku 2: "))
 print(f"{summa(x, y)}")
 print(f"{erotus(x, y)}")
 logger("lopetetaan")
+print("goodbye!") #Lisäys bugikorjaus-branchissa
+
 
