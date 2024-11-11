@@ -10,10 +10,10 @@ def main():
     console.print("NHL statistics by nationality")
     console.print("")
 
-    season = Prompt.ask("Enter the season", choices=["2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25"])
+    season = Prompt.ask("Select season", choices=["2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25"])
     console.print("")
     while True:
-        nationality = Prompt.ask("Enter the nationality", choices=["AUT", "CZE", "AUS", "SWE", "GER", "DEN", "SUI", "SVK", "NOR", "RUS", "CAN", "LAT", "BLR", "SLO", "USA", "FIN", "GBR"])
+        nationality = Prompt.ask("Select nationality", choices=["AUT", "CZE", "AUS", "SWE", "GER", "DEN", "SUI", "SVK", "NOR", "RUS", "CAN", "LAT", "BLR", "SLO", "USA", "FIN", "GBR"])
 
         url = f"https://studies.cs.helsinki.fi/nhlstats/{season}/players"
         reader = PlayerReader(url)
