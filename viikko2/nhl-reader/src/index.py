@@ -23,8 +23,8 @@ def main():
         table = Table(title=f"Top scorers of {nationality} season {season}")
 
         table.add_column("name", style="cyan", no_wrap=True)
-        table.add_column("neam", style="magenta")
-        table.add_column("noals", style="green", justify="right")
+        table.add_column("team", style="magenta")
+        table.add_column("goals", style="green", justify="right")
         table.add_column("assists", style="green", justify="right")
         table.add_column("points", style="green", justify="right")
 
