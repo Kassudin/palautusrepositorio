@@ -1,0 +1,23 @@
+1731936307322	geckodriver	INFO	Listening on 127.0.0.1:47887
+1731936307342	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "41457" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileF9MHqU"
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731936308276	Marionette	INFO	Marionette enabled
+1731936308492	Marionette	INFO	Listening on port 37063
+Read port: 37063
+WebDriver BiDi listening on ws://127.0.0.1:41457
+1731936308883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:41457/devtools/browser/e27cf035-1aad-4002-89c6-424c990affd1
+[Parent 39793, IPC I/O Parent] WARNING: process 39952 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:5001."
+1731936352690	Marionette	INFO	Stopped listening on port 37063
+[Parent 39793, IPC I/O Parent] WARNING: process 40033 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+[Parent 39793, IPC I/O Parent] WARNING: process 39921 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+1731936352778	geckodriver::marionette	ERROR	Failed to close browser connection: unknown error
+[ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+[Parent 39793, IPC I/O Parent] WARNING: process 39894 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245

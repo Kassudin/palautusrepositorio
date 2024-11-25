@@ -1,0 +1,20 @@
+1731675855820	geckodriver	INFO	Listening on 127.0.0.1:46143
+1731675855840	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51867" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekF4iM1"
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731675856644	Marionette	INFO	Marionette enabled
+1731675856815	Marionette	INFO	Listening on port 42269
+Read port: 42269
+WebDriver BiDi listening on ws://127.0.0.1:51867
+1731675857111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51867/devtools/browser/0999ccf1-f333-4375-a9ee-d1b042768f5c
+1731675858567	Marionette	INFO	Stopped listening on port 42269
+console.error: services.settings: 
+  main/tracking-protection-lists Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 128"  data: no]
+console.error: ({})
+console.error: ({})
+[Parent 156711, IPC I/O Parent] WARNING: process 156862 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+console.error: (new Error("IndexedDB: main/query-stripping list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: (new Error("IndexedDB: main/fingerprinting-protection-overrides list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))

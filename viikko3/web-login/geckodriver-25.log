@@ -1,0 +1,16 @@
+1731932709745	geckodriver	INFO	Listening on 127.0.0.1:42525
+1731932709770	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43637" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCsbCGM"
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731932710692	Marionette	INFO	Marionette enabled
+1731932710910	Marionette	INFO	Listening on port 46201
+Read port: 46201
+WebDriver BiDi listening on ws://127.0.0.1:43637
+1731932711337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43637/devtools/browser/43b2108a-607e-4514-82fd-888b8fa7defc
+[Parent 18898, IPC I/O Parent] WARNING: process 19055 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+1731932720807	Marionette	INFO	Stopped listening on port 46201
+[Parent 18898, IPC I/O Parent] WARNING: process 19025 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+[Parent 18898, IPC I/O Parent] WARNING: process 19119 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
