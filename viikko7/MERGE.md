@@ -1,0 +1,1 @@
+https://github.com/MarkusWahlman/LatexLab/commit/5306bda65977b3d3c44b8965e6cb6dca93b19465
